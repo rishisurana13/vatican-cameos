@@ -1,1 +1,31 @@
 @import '~bootstrap/scss/bootstrap';
+
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+}
+
+.login-bttn-nav {
+  margin-left: 70%;
+  border-radius: 30px;
+}
+
+section {
+
+  min-height: 100vh;
+}
+
+.s1 {
+  background-color: #fdd3c1;
+}
+
+.s1-bg {
+  max-width:100%;
+
+
+}
+
+.s2 {
+
+}
