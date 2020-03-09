@@ -9,6 +9,14 @@ body {
   font-family: Montserrat;
 }
 
+.card-title {
+  font-weight: 800;
+}
+
+.card-header {
+  font-size: 1.4rem;
+}
+
 .cards2 {
 
   width: 33%;
@@ -35,6 +43,7 @@ body {
   color: white;
   border-radius: 14px;
   display: inline-flex;
+  font-size: 12px;
 }
 
 .card-texts2 {
@@ -168,19 +177,57 @@ form {
   opacity: 0.5;
 }
 
-.login-bttn-nav {
-  margin-left: 65%;
-  border-radius: 30px;
+.login-input {
+  margin: 5%;
+
+  width: 10rem;
+  align-items: center;
+  text-align: center;
 }
 
+.login-modal-body {
+  height: 20rem;
+
+}
+
+.login-bttn-nav {
+  margin-left: 80%;
+  border-radius: 30px;
+  background-color: rgba(50, 37, 91, 0.85);
+  color: white;
+}
+
+.login-bttn-nav:hover {
+  background-color: white;
+  color: rgba(50, 37, 91, 0.85);
+}
 .mid-col {
   background-color: #5B0064;
   color: white;
 }
 
 .navbar-dark {
-  background-color: #5B0064;
+  background-color: rgba(50, 37, 91, 0.85);
 }
+
+.navbar {
+  height: 6rem;
+}
+
+
+
+.nav-logo {
+  height: 7rem;
+  width: 6rem;
+}
+
+#sign-in-form {
+  margin: 5%;
+  margin-left: 30%;
+
+
+}
+
 
 
 .sec {
@@ -192,6 +239,7 @@ form {
 .s1-bg {
   max-width:100%;
   max-height: 100%;
+  clip: rect(0px,60px,200px,0px);
 
 
 }
